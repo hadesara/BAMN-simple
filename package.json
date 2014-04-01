@@ -1,0 +1,12 @@
+{
+  "name": "BAMN simple",
+  "version": "0.0.1",
+  "description": "Simplest bootstrap angular mongo node example",
+  "private": true,
+  "author": "Hiren Adesara",
+  "dependencies": {
+   "express": "3.0.0", 
+   "mongoose": "3.6.7",
+   "mongodb" : "1.1.11"
+  }
+}

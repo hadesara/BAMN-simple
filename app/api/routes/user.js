@@ -26,8 +26,8 @@ module.exports = {
 		});
 	},
 
-	findById : function(req, res) {
-		var id = req.params.id;
+	findByUserName : function(req, res) {
+		var id = req.params.username;
 		console.log('Retrieving a user..');
 		User.findById(id, function(err, usersResult) {
 			if(err || !usersResult)

@@ -64,7 +64,7 @@ app.all('*', function(req, res, next) {
 
 // API: User routes
 app.get('/api/user', user.findAll);
-app.get('/api/user/:id', user.findByUser);
+app.get('/api/user/:id', user.findById);
 app.post('/api/user', user.addUser);
 app.put('/api/user/:id', user.updateUser);
 app.delete('/api/user/:id', user.deleteUser);

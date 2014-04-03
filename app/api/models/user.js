@@ -8,7 +8,6 @@ var userSchema = new Schema
     lastName: String,
     securityQuestion: String,
     securityAnswer: String,
-    //isDoctor: Boolean,
     organizationId: [Schema.Types.ObjectId],
     location: [String],
     role: String,
@@ -16,4 +15,4 @@ var userSchema = new Schema
     creationDate: String
   });
 
-module.exports = User = mongoose.model('User', userSchema); 
+module.exports = User = mongoose.model('User', userSchema);
